@@ -17,3 +17,8 @@ html{
     text-align: center;
     margin: 5% 0;
 }
+
+.rodape {
+    display: flex;
+    
+}
