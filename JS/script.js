@@ -13,7 +13,7 @@ botao.addEventListener("click",function(){
     g = Math.round(Math.random()*255);
     b = Math.round(Math.random()*255);
     
-    this.setAttribute("style",`backgroung-color:rgb(${r},${g},${b});`);
+    this.setAttribute("style",`background-color:rgb(${r},${g},${b});`);
  });
 
  //Estudar: querySelector , querySelectorAll , Array , Estruturas de repetição.
