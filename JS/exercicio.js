@@ -46,13 +46,13 @@ function trocarImagem() {
 } ;
 
 function exibirMensagem() {
-    let elemento = document.getElementById("meuElemento");
+    let elemento = document.getElementById("elemento");
     elemento.innerHTML = "Representação da imagem.";
     elemento.style.display = "block";
 }
 
 function ocultarElemento() {
-    let paragrafo = document.getElementById("meuParagrafo");
+    let paragrafo = document.getElementById("paragrafo");
     if (paragrafo.style.display === "none") {
         paragrafo.style.display = "block";
     } else {
