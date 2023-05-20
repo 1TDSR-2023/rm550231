@@ -113,6 +113,13 @@ botaoSubmit.addEventListener("click", ()=>{
         msgStatus.setAttribute("style","color:#00ff00");
         msgStatus.innerHTML = `<span><strong>Usuario: ${userLogado.nomeCompleto} Login efetuado com sucesso!</strong></span>`
 
+        
+        //CRIANDO um token ccom o randon math.
+        const token = Math.random().toString(16).substring(2)+Math.random().toString(16).substring(2);
+        //adicionando o usuario validado no local storage
+
+        localStorage.setItem("user-token", token);
+
         //Redirect 
         setTimeout(()=>{
             window.location.href = "../home.html";
